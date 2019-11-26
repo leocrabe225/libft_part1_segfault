@@ -6,7 +6,7 @@
 /*   By: lcalendi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/22 15:18:43 by lcalendi          #+#    #+#             */
-/*   Updated: 2019/11/07 16:56:53 by lcalendi         ###   ########.fr       */
+/*   Updated: 2019/11/26 18:57:07 by lcalendi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@ void main_memmove()
 {
 	char dst[50] = "Je ne suis";
 	char dst4[50] = "Je ne suis";
-	char dst2[20];
-	char dst3[20];
+	char dst2[20] = {0};
+	char dst3[20] = {0};
 	char *str = "Decideriez vous de m'accorde quelqus minutes por favor ?";
 	char *str2 = "por favor no";
 
