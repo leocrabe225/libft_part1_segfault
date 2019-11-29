@@ -8,3 +8,4 @@ cd ${PLACE}
 cp ${LIBFT_PATH}/libft.a .
 gcc -Werror -Wextra -Wall -o segfault_part_one.exe main* libft.a
 ./segfault_part_one.exe
+rm -f libft.a segfault_part_one.exe
